@@ -10,3 +10,7 @@ defaults:
       path: "d4e8b7192c6a43089f51b832a7d904e1.txt"
     values:
       sitemap: false
+  - scope:
+      path: "google6a000b3e22028024.html"
+    values:
+      sitemap: false
