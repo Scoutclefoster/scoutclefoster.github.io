@@ -88,7 +88,8 @@ Run custom trade sizes in the browser-side calculator: **[fomoappreferral.com/fe
 - [Fomo referral code (November 2026): current status & sign-up steps](/november-2026/)
 - [Fomo vs Axiom (2026): fee & execution comparison](/fomo-vs-axiom/)
 - [Is Fomo legit? Custody, Privy keys & fee audit](/is-fomo-legit/)
-- Languages: [Deutsch](/de/) · [Español](/es/) · [Français](/fr/)
+- Languages: [Deutsch](/de/) · [Español](/es/) · [Français](/fr/) · [Português](/pt/) · [Italiano](/it/) · [Polski](/pl/) · [Русский](/ru/) · [日本語](/ja/) · [한국어](/ko/) · [中文](/zh/) · [العربية](/ar/)
+- Additional guides: [Sign-up checklist & 0.45% fee check](/sign-up-checklist/) · [Perps fees & Hyperliquid](/perps-fees/)
 - Raw machine-readable files: [CSV fee table](/fomo-fees-2026.csv) · [llms.txt](/llms.txt)
 
 ## External references
