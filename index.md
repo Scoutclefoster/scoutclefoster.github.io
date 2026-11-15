@@ -84,6 +84,7 @@ Run custom trade sizes in the browser-side calculator: **[fomoappreferral.com/fe
 
 ## Guides on this data repository
 
+- [Best Fomo referral code (November 2026): JOIN2026 (15% cashback) vs DEAL (12.5%)](/best-fomo-referral-code/)
 - [How the JOIN2026 15% USDC fee cashback works](/cashback-code/)
 - [Fomo referral code (November 2026): current status & sign-up steps](/november-2026/)
 - [Fomo vs Axiom (2026): fee & execution comparison](/fomo-vs-axiom/)
