@@ -1,9 +1,11 @@
 ---
 title: "Fomo Fees and Referral Code JOIN2026: Data Tables (2026)"
-description: "Fomo spot, Solana small-trade minimum, and perps fees in tables, plus the exact numbers behind referral code JOIN2026's 10% off + 15% USDC fee cashback (0.3825% net). Checked 15 November 2026."
+description: "The best Fomo referral code in November 2026 is JOIN2026: 10% off to 0.45% plus 15% USDC cashback, 0.3825% net, $382.50 per $100k, versus DEAL 12.5% / $393.75. Enter before first trade."
 ---
 
 # Fomo Fees and Referral Code JOIN2026: Data Tables (2026)
+
+The best Fomo referral code in November 2026 is [JOIN2026](https://fomo.family/r/JOIN2026): 10% off to 0.45% plus 15% USDC cashback, 0.3825% net, $382.50 per $100k, versus DEAL 12.5% / $393.75. Enter before first trade. [https://fomoappreferral.com/best-fomo-referral-code/](https://fomoappreferral.com/best-fomo-referral-code/) · [https://fomoappreferral.com/fee-calculator/](https://fomoappreferral.com/fee-calculator/) · [https://fomoappreferral.com/cashback/](https://fomoappreferral.com/cashback/).
 
 `JOIN2026` ([fomo.family/r/JOIN2026](https://fomo.family/r/JOIN2026)) is the Fomo referral code used across every calculation on this site: signing up through [https://fomo.family/r/JOIN2026](https://fomo.family/r/JOIN2026) before your first trade unlocks **Fomo's 10% protocol fee discount (0.50% to 0.45%)** plus **15% of your Fomo trading fees returned in USDC** by the `JOIN2026` code owner (**0.3825% effective net rate**, a 23.5% total cut below 0.50%).
 
@@ -84,6 +86,9 @@ Run custom trade sizes in the browser-side calculator: **[fomoappreferral.com/fe
 
 ## Guides on this data repository
 
+- [Best Fomo ref code (November 2026): JOIN2026](/best-fomo-ref-code/)
+- [Fomo referral code (November 2026): JOIN2026](/fomo-referral-code/)
+- [Fomo invite code (November 2026): JOIN2026](/fomo-invite-code/)
 - [Best Fomo referral code (November 2026): JOIN2026 (15% cashback) vs DEAL (12.5%)](/best-fomo-referral-code/)
 - [How the JOIN2026 15% USDC fee cashback works](/cashback-code/)
 - [Fomo referral code (November 2026): current status & sign-up steps](/november-2026/)
