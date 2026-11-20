@@ -6,4 +6,4 @@ Open static HTML & CSV benchmark tables for Fomo (`fomo.family`) spot fees, Sola
 - **JOIN2026 vs DEAL Audit:** [https://scoutclefoster.github.io/fomo-referral-code-deal-vs-join2026/](https://scoutclefoster.github.io/fomo-referral-code-deal-vs-join2026/)
 - **Interactive Calculator & Full Documentation:** [https://fomoappreferral.com/](https://fomoappreferral.com/) · [https://fomoappreferral.com/datasets/](https://fomoappreferral.com/datasets/)
 - **Raw CSV Datasets:** [`fomo-fees-2026.csv`](./fomo-fees-2026.csv) · [`fomo-referral-benchmark-2026.csv`](./fomo-referral-benchmark-2026.csv)
-- **Last Checked Against Fomo Help Center:** 17 November 2026
+- **Last Checked Against Fomo Help Center:** 20 November 2026
