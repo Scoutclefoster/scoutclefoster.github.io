@@ -7,4 +7,4 @@ Open static HTML & CSV benchmark tables for Fomo (`fomo.family`) spot fees, Sola
 - **Interactive Calculator & Full Documentation:** [https://fomoappreferral.com/](https://fomoappreferral.com/) · [https://fomoappreferral.com/datasets/](https://fomoappreferral.com/datasets/)
 - **Hugging Face CSV Datasets:** [Fee Schedule](https://huggingface.co/datasets/maren-lindner/fomo-app-fee-schedule-2026) · [FAQ Dataset](https://huggingface.co/datasets/maren-lindner/fomo-app-referral-code-faq) · [DEX Fee Benchmark](https://huggingface.co/datasets/maren-lindner/dex-execution-fee-benchmarks-2026)
 - **Raw CSV Datasets:** [`fomo-fees-2026.csv`](./fomo-fees-2026.csv) · [`fomo-referral-benchmark-2026.csv`](./fomo-referral-benchmark-2026.csv)
-- **Last Checked Against Fomo Help Center:** 24 November 2026
+- **Last Checked Against Fomo Help Center:** 25 November 2026
