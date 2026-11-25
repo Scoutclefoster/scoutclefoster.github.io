@@ -18,51 +18,126 @@
 <meta property="og:title" content="Fomo 招待コード JOIN2026 — アプリ手数料割引とUSDC入金ガイド (2026)">
 <meta property="og:description" content="Fomo 招待コード・紹介コード JOIN2026 (fomo.family/r/JOIN2026)：公式10%割引(0.45%)＋15% USDC還元(実質0.3825%)、bitbank・GMOコイン・Bybitからの送金手順。">
 <meta property="og:url" content="https://scoutclefoster.github.io/ja/">
-<style>:root{--bg:#f6f8fa;--paper:#ffffff;--ink:#0f172a;--muted:#475569;--line:#e2e8f0;--accent:#0f4c81;--accent-soft:#eaf2fb;--ok:#0f766e;--dark:#0b1220}
+<style>:root{color-scheme:dark;--bg:#060510;--surface:#0C0A1D;--card:#121026;--card-top:#161331;--card-hover:#181535;--line:rgba(203,208,235,.11);--line-strong:rgba(203,208,235,.22);--text:#F5F4FF;--text-2:#C9C6E8;--muted:#9490B8;--indigo:#516AF6;--lav:#B8B2FF;--ok:#34D399;--ok-tint:rgba(52,211,153,.12);--sans:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;--mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;--card-bg:linear-gradient(180deg,#161331,#121026);--edge:inset 0 1px 0 rgba(255,255,255,.06);--ease:cubic-bezier(.2,.7,.2,1)}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-header{background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
-.wrap{max-width:900px;margin:0 auto;padding:0 20px}
-.nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;padding:12px 0}
-.brand{font-weight:700;color:var(--ink);text-decoration:none;font-size:1.05rem}
-.nav-links{display:flex;flex-wrap:wrap;gap:6px 12px}
-.nav-links a{color:var(--muted);text-decoration:none;font-weight:600;font-size:.94rem}
-.nav-links a:hover,.nav-links a[aria-current="page"]{color:var(--accent);text-decoration:underline}
-main{padding:32px 0 64px}
-h1{font-size:clamp(1.85rem,3vw,2.5rem);line-height:1.15;letter-spacing:-.025em;margin:0 0 14px}
-h2{font-size:1.4rem;line-height:1.25;margin:36px 0 12px}
-h3{font-size:1.12rem;margin:22px 0 8px}
+html{background:var(--bg);-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse 80% 50% at 50% -10%,rgba(81,106,246,.20),transparent 65%) top center/100% 100vh no-repeat;color:var(--text-2);font:16px/1.65 var(--sans);overflow-wrap:break-word;-webkit-font-smoothing:antialiased}
+a{color:var(--lav);text-decoration-line:underline;text-decoration-thickness:1px;text-underline-offset:.2em;text-decoration-color:rgba(184,178,255,.45);transition:color .16s ease,text-decoration-color .16s ease}
+a:hover{color:var(--text);text-decoration-color:currentColor}
+:focus-visible{outline:2px solid var(--lav);outline-offset:2px;border-radius:6px}
+::selection{background:rgba(81,106,246,.5);color:#fff}
+header{border-bottom:1px solid var(--line)}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+.nav{display:flex;flex-direction:column;gap:10px;padding-top:10px;padding-bottom:10px}
+.brand-row{display:flex;flex-wrap:wrap;align-items:center;gap:2px 12px}
+.brand{display:inline-flex;align-items:center;min-height:44px;color:var(--text);font-weight:700;font-size:1.02rem;letter-spacing:-.01em;text-decoration:none}
+.brand:hover{color:var(--lav)}
+.pill{display:inline-flex;align-items:center;padding:6px 11px;border:1px solid rgba(184,178,255,.6);border-radius:999px;background:rgba(184,178,255,.08);color:var(--lav);font-size:.68rem;font-weight:700;line-height:1;letter-spacing:.09em;text-transform:uppercase;white-space:nowrap}
+.nav-links{display:flex;gap:4px;margin:0 -16px;padding:0 4px 2px;overflow-x:auto;scrollbar-width:none}
+.nav-links::-webkit-scrollbar{display:none}
+.nav-links a{flex:none;display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border-radius:10px;color:var(--text-2);font-weight:600;font-size:.9rem;white-space:nowrap;text-decoration:none;transition:color .16s ease,background-color .16s ease}
+.nav-links a:hover{background:rgba(203,208,235,.07);color:var(--text)}
+.nav-links a[aria-current="page"]{background:rgba(81,106,246,.18);box-shadow:inset 0 0 0 1px rgba(184,178,255,.3);color:var(--text)}
+main.wrap{padding-top:32px;padding-bottom:72px}
+h1,h2,h3{color:var(--text);text-wrap:balance}
+h1{margin:0 0 16px;font-size:clamp(1.65rem,1.2rem + 2.2vw,2.5rem);font-weight:700;line-height:1.14;letter-spacing:-.028em}
+h2{margin:44px 0 14px;font-size:clamp(1.2rem,1.1rem + .6vw,1.42rem);font-weight:700;line-height:1.25;letter-spacing:-.015em}
+h3{margin:24px 0 8px;font-size:1.1rem;font-weight:600}
 p,ul,ol{margin:0 0 16px}
-code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:#eef2f6;padding:.12em .4em;border-radius:5px;font-size:.92em}
-.hero{background:var(--dark);color:#f8fafc;border-radius:16px;padding:22px;margin:18px 0 28px}
-.hero a:not(.btn){color:#93c5fd}
-.hero-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;margin:10px 0 12px}
-.badge-btn{appearance:none;background:rgba(255,255,255,.08);border:1px dashed rgba(255,255,255,.45);color:#fff;border-radius:10px;padding:8px 14px;font:700 1.55rem/1.1 ui-monospace,SFMono-Regular,Consolas,monospace;cursor:pointer;display:inline-flex;align-items:center;gap:10px}
-.badge-btn span.hint{font:600 .74rem/1 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.05em;background:rgba(255,255,255,.14);padding:4px 8px;border-radius:999px}
-.btns{display:flex;flex-wrap:wrap;gap:10px}
-.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 18px;border-radius:999px;font-weight:600;font-size:.96rem;text-decoration:none;cursor:pointer;border:0}
-.btn-primary{background:#38bdf8;color:#082f49}
-.btn-secondary{background:transparent;color:#f8fafc;box-shadow:inset 0 0 0 1px rgba(248,250,252,.38)}
-.box{background:var(--paper);border:1px solid var(--line);border-inline-start:4px solid var(--accent);border-radius:12px;padding:15px 18px;margin:18px 0}
-.table-wrap{overflow-x:auto;background:var(--paper);border:1px solid var(--line);border-radius:12px;margin:14px 0 22px}
-table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
-th,td{padding:11px 14px;border-bottom:1px solid var(--line);text-align:start;vertical-align:top;font-size:.95rem}
-th{background:#f1f5f9;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
-tr:last-child td{border-bottom:0}
-tr.hl td{background:var(--accent-soft);font-weight:600}
-pre.tpl{background:#f1f5f9;padding:12px 14px;border-radius:8px;white-space:pre-wrap;word-break:break-word;font-size:.88rem}
-details.faq{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-bottom:10px}
-details.faq summary{font-weight:600;cursor:pointer}
-details.faq p{margin:10px 0 0;color:var(--muted)}
-footer{background:var(--paper);border-top:1px solid var(--line);padding:28px 0 44px;color:var(--muted);font-size:.92rem}
-.toast{position:fixed;inset-inline:16px;bottom:18px;max-width:520px;margin:0 auto;background:var(--dark);color:#f8fafc;padding:12px 16px;border-radius:12px;font-weight:600;text-align:center;opacity:0;pointer-events:none;transform:translateY(10px);transition:opacity .18s,transform .18s;z-index:50}
-.toast.on{opacity:1;transform:translateY(0)}</style>
+ul,ol{padding-inline-start:1.3em}
+li{margin-bottom:8px}
+li::marker{color:var(--muted)}
+strong,b{color:var(--text);font-weight:600}
+code,pre{font-family:var(--mono)}
+code{padding:.14em .4em;border:1px solid var(--line);border-radius:6px;background:rgba(203,208,235,.07);color:var(--text);font-size:.86em;font-variant-numeric:tabular-nums;overflow-wrap:anywhere;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+code.jc{border-color:rgba(52,211,153,.3);background:var(--ok-tint);color:var(--ok)}
+.hero,.box,.table-wrap,details.faq{border:1px solid var(--line);border-radius:16px;background:var(--card-bg);box-shadow:var(--edge)}
+.hero{margin:22px 0 30px;padding:18px;border-color:var(--line-strong);box-shadow:var(--edge),0 18px 40px -24px rgba(0,0,0,.8)}
+.hero-label{color:var(--muted);font-size:.72rem;font-weight:600;line-height:1.5;letter-spacing:.08em;text-transform:uppercase}
+.hero-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin:14px 0 16px}
+.hero-sum{margin:0;color:var(--text-2);font-variant-numeric:tabular-nums}
+.badge-btn{appearance:none;display:inline-flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:56px;padding:10px 16px;border:1px dashed rgba(52,211,153,.5);border-radius:12px;background:var(--ok-tint);color:var(--ok);font:700 1.55rem/1.1 var(--mono);letter-spacing:.02em;font-variant-numeric:tabular-nums;cursor:pointer;transition:transform .16s var(--ease),background-color .16s ease,border-color .16s ease}
+.badge-btn:hover{border-color:rgba(52,211,153,.8);background:rgba(52,211,153,.17)}
+.badge-btn span.hint{padding:5px 9px;border-radius:999px;background:rgba(203,208,235,.1);color:var(--text-2);font:600 .68rem/1 var(--sans);letter-spacing:.07em;text-transform:uppercase}
+.btns{display:flex;flex-wrap:wrap;gap:10px;width:100%}
+.btn{appearance:none;display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:10px 18px;border:1px solid transparent;border-radius:12px;font:600 .95rem/1.2 var(--sans);text-align:center;text-decoration:none;cursor:pointer;transition:transform .16s var(--ease),opacity .16s ease,background-color .16s ease,border-color .16s ease,color .16s ease}
+.btns .btn{flex:1 1 auto}
+.btn:active,.badge-btn:active{transform:scale(.97)}
+.btn-primary{background:#465DEB;box-shadow:inset 0 1px 0 rgba(255,255,255,.18);color:#fff}
+.btn-primary:hover{background:#3D52DA;color:#fff}
+.btn-secondary{border-color:var(--line-strong);background:rgba(203,208,235,.05);color:var(--text)}
+.btn-secondary:hover{border-color:rgba(203,208,235,.36);background:rgba(203,208,235,.1);color:var(--text)}
+.box{margin:20px 0;padding:16px 18px}
+.box.quick,.links,.foot-links{line-height:46px}
+.box.quick{padding-top:6px;padding-bottom:6px}
+.box.quick a,.links a,.foot-links a{display:inline-block;max-width:100%;padding:13px 0;line-height:20px;vertical-align:top}
+.links li{margin-bottom:0}
+.table-wrap{margin:16px 0 26px;overflow-x:auto;scrollbar-width:thin;scrollbar-color:rgba(203,208,235,.28) transparent}
+table{width:100%;min-width:680px;border-collapse:collapse;font-variant-numeric:tabular-nums}
+table.wide{min-width:900px}
+table.wide th:nth-child(2){white-space:nowrap}
+table.wide td:nth-child(2){min-width:128px}
+table.wide td:last-child{min-width:280px}
+th,td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:start;vertical-align:top;font-size:.92rem;line-height:1.5}
+thead th{border-bottom-color:var(--line-strong);background:rgba(6,5,16,.62);color:var(--muted);font-size:.7rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;vertical-align:bottom}
+tbody tr{transition:background-color .15s ease}
+tbody tr:hover{background:rgba(203,208,235,.05)}
+tbody tr:last-child td{border-bottom:0}
+td.num{font-family:var(--mono);font-size:.86rem}
+td a{display:inline-flex;align-items:center;min-height:44px}
+tr.pick{background:rgba(203,208,235,.05)}
+tr.pick td{color:var(--text);font-weight:600}
+tr.hl{background:var(--ok-tint)}
+tr.hl:hover{background:rgba(52,211,153,.17)}
+tr.hl td{color:var(--text)}
+tr.hl td:first-child{box-shadow:inset 2px 0 0 var(--ok)}
+tr.hl strong,tr.hl td.rb,td.jn strong{color:var(--ok)}
+tr.hl td.rb{font-weight:600}
+pre.tpl{margin:0 0 16px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--text-2);font-size:.84rem;line-height:1.6;white-space:pre-wrap;word-break:break-word}
+details.faq{margin-bottom:10px;padding:0 18px}
+details.faq summary{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:56px;padding:10px 0;color:var(--text);font-weight:600;line-height:1.4;list-style:none;cursor:pointer;transition:color .16s ease}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary::after{content:"+";flex:none;color:var(--lav);font:500 1.25rem/1 var(--mono);transition:transform .18s var(--ease)}
+details.faq[open] summary::after{transform:rotate(45deg)}
+details.faq summary:hover{color:var(--lav)}
+details.faq p{margin:0;padding:0 0 16px;color:var(--text-2)}
+footer{padding:30px 0 48px;border-top:1px solid var(--line);background:var(--surface);color:var(--muted);font-size:.9rem}
+footer p{margin:0}
+footer p+p{margin-top:10px}
+footer strong{color:var(--text-2)}
+.toast{position:fixed;inset-inline:16px;bottom:18px;z-index:50;max-width:520px;margin:0 auto;padding:13px 16px;border:1px solid var(--line-strong);border-radius:12px;background:var(--card-hover);box-shadow:var(--edge),0 16px 40px rgba(0,0,0,.55);color:var(--text);font-weight:600;text-align:center;opacity:0;pointer-events:none;transform:translateY(10px);transition:opacity .18s ease,transform .18s var(--ease)}
+.toast.on{opacity:1;transform:translateY(0)}
+@media (min-width:640px){
+.wrap{padding:0 24px}
+.nav{gap:4px;padding-top:14px;padding-bottom:12px}
+.nav-links{flex-wrap:wrap;margin:0 -12px;padding:0;overflow:visible}
+main.wrap{padding-top:44px;padding-bottom:88px}
+.hero{padding:24px}
+.badge-btn{width:auto;justify-content:flex-start}
+.btns{width:auto}
+.btns .btn{flex:none}
+}
+@media (min-width:960px){
+table.wide{min-width:0}
+}
+@media (hover:hover) and (pointer:fine){
+.box.quick,.links,.foot-links{line-height:1.9}
+.box.quick{padding-top:14px;padding-bottom:14px}
+.box.quick a,.links a,.foot-links a{display:inline;padding:2px 0;line-height:inherit;vertical-align:baseline}
+.links li{margin-bottom:6px}
+td a{min-height:0}
+}
+@media (prefers-reduced-motion:reduce){
+*,*::before,*::after{transition-duration:.01ms!important}
+.btn:active,.badge-btn:active{transform:none}
+.toast,.toast.on{transform:none}
+}</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://scoutclefoster.github.io/ja/#webpage","url":"https://scoutclefoster.github.io/ja/","name":"Fomo 招待コード JOIN2026 — アプリ手数料割引とUSDC入金ガイド (2026)","headline":"Fomo 招待コード JOIN2026 — アプリ手数料割引（実質0.3825%）","description":"Fomo 招待コード・紹介コード JOIN2026 (fomo.family/r/JOIN2026)：公式10%割引(0.45%)＋15% USDC還元(実質0.3825%)、bitbank・GMOコイン・Bybitからの送金手順。","inLanguage":"ja","datePublished":"2026-11-15","dateModified":"2026-11-25","isPartOf":{"@type":"WebSite","@id":"https://scoutclefoster.github.io/#site","name":"Fomo Fee & Referral Benchmark Tables (JOIN2026)","url":"https://scoutclefoster.github.io/"}},{"@type":"Dataset","@id":"https://scoutclefoster.github.io/#dataset","name":"Fomo Referral Code Verification Registry & 8-Chain Fee Tables (November 2026)","description":"Open CSV & HTML benchmark comparing Fomo code JOIN2026 (0.3825% net) vs DEAL (0.3938% net) and standard 10% codes across all 8 Fomo networks.","url":"https://scoutclefoster.github.io/","isAccessibleForFree":true,"license":"https://creativecommons.org/licenses/by/4.0/","dateModified":"2026-11-25","distribution":[{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://scoutclefoster.github.io/fomo-fees-2026.csv"},{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://scoutclefoster.github.io/fomo-referral-benchmark-2026.csv"}],"sameAs":["https://fomoappreferral.com/datasets/","https://fomoappreferral.com/"]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Fomo招待コード JOIN2026 の実質手数料はいくらですか？","acceptedAnswer":{"@type":"Answer","text":"標準0.50%から10%オフの0.45%となり、さらに15%のUSDC還元により実質0.3825%（10万ドルあたり$382.50）です。"}},{"@type":"Question","name":"Solanaのガス代用SOLを入金する必要はありますか？","acceptedAnswer":{"@type":"Answer","text":"不要です。FomoがSolanaのガス代・優先手数料・トークン口座レントを負担するため、USDCのみで取引可能です。"}}]}]}</script>
 </head>
 <body>
 <header>
   <div class="wrap nav">
-    <a class="brand" href="/">Fomo Fee &amp; Code JOIN2026 Data Hub</a>
+    <div class="brand-row"><a class="brand" href="/">Fomo Fee &amp; Code JOIN2026 Data Hub</a> <span class="pill">UNOFFICIAL GUIDE</span></div>
     <nav class="nav-links" aria-label="Primary">
       <a href="/">Benchmark Home</a><a href="/fomo-referral-code/">Referral Code</a><a href="/fomo-family-referral-code/">Fomo Family</a><a href="/fomo-invite-code/">Invite &amp; Recovery</a><a href="/fomo-referral-code-deal-vs-join2026/">JOIN2026 vs DEAL</a><a href="/de/">DE</a><a href="/id/">ID</a><a href="/ko/">KO</a><a href="/ja/" aria-current="page">JA</a>
     </nav>
@@ -71,9 +146,9 @@ footer{background:var(--paper);border-top:1px solid var(--line);padding:28px 0 4
 <main class="wrap">
   <h1>Fomo 招待コード JOIN2026 — アプリ手数料割引（実質0.3825%）</h1>
   
-<p>2026年11月検証済みのFomo招待コード・紹介コードは <strong><code>JOIN2026</code></strong>（<a href="https://fomo.family/r/JOIN2026" target="_blank" rel="noopener noreferrer sponsored">https://fomo.family/r/JOIN2026</a>）です。公式の<strong>10%手数料割引（0.45%）</strong>と<strong>15% USDCキャッシュバック</strong>により、実質手数料は<strong>0.3825%</strong>（10万ドル取引あたり$382.50）になります。日本語の完全ガイド＆計算機：<strong><a href="https://fomoappreferral.com/ja/">https://fomoappreferral.com/ja/</a></strong>。</p>
+<p>2026年11月検証済みのFomo招待コード・紹介コードは <strong><code class="jc">JOIN2026</code></strong>（<a href="https://fomo.family/r/JOIN2026" target="_blank" rel="noopener noreferrer sponsored">https://fomo.family/r/JOIN2026</a>）です。公式の<strong>10%手数料割引（0.45%）</strong>と<strong>15% USDCキャッシュバック</strong>により、実質手数料は<strong>0.3825%</strong>（10万ドル取引あたり$382.50）になります。日本語の完全ガイド＆計算機：<strong><a href="https://fomoappreferral.com/ja/">https://fomoappreferral.com/ja/</a></strong>。</p>
 <div class="hero">
-  <div style="font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;color:#cbd5e1">Fomo 招待コード / 紹介コード · Checked 25 November 2026</div>
+  <div class="hero-label">Fomo 招待コード / 紹介コード · Checked 25 November 2026</div>
   <div class="hero-row">
     <button type="button" class="badge-btn" data-copy="JOIN2026" data-toast="JOIN2026 をコピーしました — 初回取引前にFomoへ貼り付けてください">
       <span>JOIN2026</span><span class="hint">コピー</span>
@@ -83,11 +158,11 @@ footer{background:var(--paper);border-top:1px solid var(--line);padding:28px 0 4
       <a class="btn btn-primary" href="https://fomo.family/r/JOIN2026" target="_blank" rel="noopener noreferrer sponsored">fomo.family/r/JOIN2026 を開く</a>
     </div>
   </div>
-  <p style="margin:0;color:#e2e8f0">0.45%割引＋手数料の15%をUSDC還元＝実質0.3825%（外部登録フォーム不要）。</p>
+  <p class="hero-sum">0.45%割引＋手数料の15%をUSDC還元＝実質0.3825%（外部登録フォーム不要）。</p>
 </div>
 <h2>bitbank・GMOコイン・Bybit &rarr; Solana USDC 送金のポイント</h2>
 <ol>
-  <li>初回取引の前に <a href="https://fomo.family/r/JOIN2026" target="_blank" rel="noopener noreferrer sponsored">fomo.family/r/JOIN2026</a> から <code>JOIN2026</code> を適用します。</li>
+  <li>初回取引の前に <a href="https://fomo.family/r/JOIN2026" target="_blank" rel="noopener noreferrer sponsored">fomo.family/r/JOIN2026</a> から <code class="jc">JOIN2026</code> を適用します。</li>
   <li><strong>bitbank / GMOコイン</strong> 等から <strong>Bybit</strong> や個人ウォレットを経由し、<strong>Solana（SPL）ネットワークのUSDC</strong> をFomoへ送金します（Fomo側でSolanaガス代・レント代は <strong>$0無料負担</strong>）。</li>
   <li>コード未反映時は初回取引前に <code>Portfolio &rarr; Gear &rarr; Help and Support &rarr; Contact support</code> へ連絡すれば手動適用が可能です（<a href="https://fomoappreferral.com/ja/">詳細：fomoappreferral.com/ja/</a>）。</li>
 </ol>
@@ -95,7 +170,7 @@ footer{background:var(--paper);border-top:1px solid var(--line);padding:28px 0 4
 </main>
 <footer>
   <div class="wrap">
-    <p style="margin:0 0 10px">
+    <p class="foot-links">
       <strong>Interactive Calculator &amp; Full Guides:</strong>
       <a href="https://fomoappreferral.com/">fomoappreferral.com</a> ·
       <a href="https://fomoappreferral.com/fomo-family-referral-code/">Fomo Family Code</a> ·
@@ -116,7 +191,7 @@ footer{background:var(--paper);border-top:1px solid var(--line);padding:28px 0 4
       <a href="/fomo-fees-2026.csv">fomo-fees-2026.csv</a> ·
       <a href="/feed.xml">RSS Feed</a>
     </p>
-    <p style="margin:0">Open CC BY 4.0 reference published by the independent <code>JOIN2026</code> code owner (<a href="https://fomo.family/r/JOIN2026" rel="noopener noreferrer sponsored" target="_blank">fomo.family/r/JOIN2026</a>). Not affiliated with Fomo or FOMO Labs, Inc. Not financial advice.</p>
+    <p>Open CC BY 4.0 reference published by the independent <code class="jc">JOIN2026</code> code owner (<a href="https://fomo.family/r/JOIN2026" rel="noopener noreferrer sponsored" target="_blank">fomo.family/r/JOIN2026</a>). Not affiliated with Fomo or FOMO Labs, Inc. Not financial advice.</p>
   </div>
 </footer>
 <div id="gh-toast" class="toast" role="status" aria-live="polite"></div>
